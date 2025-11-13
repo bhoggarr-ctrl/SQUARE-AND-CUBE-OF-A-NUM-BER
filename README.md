@@ -1,4 +1,4 @@
-<img width="909" height="1135" alt="image" src="https://github.com/user-attachments/assets/f4d8eb2f-2ca3-468c-b332-38b89603bd66" /># SQUARE AND CUBE OF A NUMBER
+# SQUARE AND CUBE OF A NUMBER
 # 8051 Square  Program
 
 ## AIM
