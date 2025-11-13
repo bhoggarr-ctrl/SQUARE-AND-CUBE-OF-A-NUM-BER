@@ -1,4 +1,4 @@
-# SQUARE AND CUBE OF A NUMBER
+<img width="909" height="1135" alt="image" src="https://github.com/user-attachments/assets/f4d8eb2f-2ca3-468c-b332-38b89603bd66" /># SQUARE AND CUBE OF A NUMBER
 # 8051 Square  Program
 
 ## AIM
@@ -16,6 +16,20 @@ To write and execute an Assembly language program for finding the square of a gi
 
 ## PROGRAM
 ```
+ORG 00H
+MOV DPTR,#4500H
+MOVX A,@DPTR
+MOV B,A
+MOV B,A
+MOVX A,@DPTR
+MUL AB
+INC DPTR
+MOVX @DPTR,A
+INC DPTR
+MOV A,B
+MOVX @DPTR,A
+END
+
 
 
 
@@ -28,6 +42,7 @@ To write and execute an Assembly language program for finding the square of a gi
 ```
 
 ## OUTPUT
+<img width="909" height="1135" alt="image" src="https://github.com/user-attachments/assets/a87651f9-0d4c-4b9f-bcf4-c8cf05ece859" />
 
 
 ## RESULT
